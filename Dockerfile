@@ -14,4 +14,4 @@ RUN apt update && apt install -y nginx && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
 
-CMD ["./docker-entrypoint/env.sh"]
+CMD ["bash", "/docker-entrypoint.d/env.sh"]
