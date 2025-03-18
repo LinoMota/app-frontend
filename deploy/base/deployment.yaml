@@ -20,7 +20,7 @@ spec:
             - configMapRef:
                 name: app-frontend-env
           ports:
-            - containerPort: 3000
+            - containerPort: 80
           resources:
             requests:
               cpu: "500m"
