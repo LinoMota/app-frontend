@@ -4,3 +4,7 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
+
+images:
+- name: linomota0/app-frontend
+  newTag: latest
