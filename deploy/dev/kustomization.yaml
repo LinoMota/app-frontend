@@ -5,7 +5,7 @@ namePrefix: dev-
 
 images:
 - name: kind-registry:5000/app-frontend
-  newName: hello-world
+  newName: nginx
   newTag: latest
 
 configMapGenerator:
