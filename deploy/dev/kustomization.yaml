@@ -4,8 +4,8 @@ bases:
 namePrefix: dev-
 
 images:
-- name: kind-registry:5000/app-frontend
-  newName: nginx
+- name: linomota0/app-frontend
+  newName: linomota0/app-frontend
   newTag: latest
 
 configMapGenerator:
